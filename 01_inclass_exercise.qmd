@@ -1,0 +1,38 @@
+---
+title: "Learn R: Interactive plots with ggplot2 and ggiraph"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+Welcome to your Quarto notebook for today's workshop! This is where you will try out the hands-on exercise.
+
+```{r}
+# load packages
+library(tidyverse)
+library(ggiraph)
+```
+
+### A. Load data
+
+```{r}
+# load data
+bowie <- read_csv("data/david_bowie_spotify.csv")
+```
+
+### B. Your Turn!
+
+Make the following plot `p1` interactive. Add a tooltip showing `track` and highlight tracks from the same `album` on hover.
+
+**Bonus:** Using `paste0()` and `"<br>"`, replace the tooltip with year, track name, and album name (each on their own line)
+
+```{r}
+p1 <- bowie |> 
+  ggplot(aes(x = year, y = popularity)) +
+  geom_point(color = "maroon", 
+             alpha = .7, size = 2) +
+  theme_minimal()
+```
+
+### 
