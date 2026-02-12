@@ -1,2 +1,7 @@
-# ggiraph-Spring2026
-Learn R: Interactive plots with ggplot2 and ggiraph
+**Link to slides:** 
+<br>
+<br>
+**Step 1:** Download materials as a zip file by clicking the green "Code" button, then "Download ZIP"
+<br>
+**Step 2:** Unzip the folder and save it somewhere you'll remember in your files
+<br>
